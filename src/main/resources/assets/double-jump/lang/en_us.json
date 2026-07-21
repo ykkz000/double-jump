@@ -1,0 +1,7 @@
+{
+  "text.autoconfig.double-jump.title": "Double Jump Options",
+  "text.autoconfig.double-jump.option.maxJumpTimes": "Max Jump Times",
+  "text.autoconfig.double-jump.option.weakenRate": "Weaken Rate",
+  "text.autoconfig.double-jump.option.maxJumpTimes.@Tooltip": "Maximum number of jumps for a player",
+  "text.autoconfig.double-jump.option.weakenRate.@Tooltip": "The ratio of a player's height on each jump to the height of the previous jump"
+}

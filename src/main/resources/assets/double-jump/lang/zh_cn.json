@@ -1,0 +1,7 @@
+{
+  "text.autoconfig.double-jump.title": "二段跳选项",
+  "text.autoconfig.double-jump.option.maxJumpTimes": "最大跳跃次数",
+  "text.autoconfig.double-jump.option.weakenRate": "衰减比率",
+  "text.autoconfig.double-jump.option.maxJumpTimes.@Tooltip": "玩家的最大跳跃次数",
+  "text.autoconfig.double-jump.option.weakenRate.@Tooltip": "玩家每一次跳跃高度相对于上一次跳跃高度的比率"
+}

@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "double-jump",
+	"version": "${version}",
+	"name": "Double Jump",
+	"description": "This is a mod that enable you to perform a double jump in Minecraft.",
+	"authors": [
+		"ykkz000"
+	],
+	"contact": {
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/double-jump",
+		"sources": "https://github.com/ykkz000/double-jump",
+		"issues": "https://github.com/ykkz000/double-jump/issue"
+	},
+	"license": "MIT",
+	"icon": "assets/double-jump/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"top.ykkz000.doublejump.DoubleJump"
+		],
+		"client": [
+			"top.ykkz000.doublejump.client.DoubleJumpClient"
+		],
+		"modmenu": [
+			"top.ykkz000.doublejump.client.DoubleJumpModMenu"
+		]
+	},
+	"mixins": [
+		"double-jump.mixins.json",
+		{
+			"config": "double-jump.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*",
+		"modmenu": ">=${modmenu_version}",
+		"cloth-config": "~${cloth_config_version}"
+	}
+}
