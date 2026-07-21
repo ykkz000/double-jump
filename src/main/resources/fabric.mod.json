@@ -8,9 +8,9 @@
 		"ykkz000"
 	],
 	"contact": {
-		"homepage": "https://www.curseforge.com/minecraft/mc-mods/double-jump",
+		"homepage": "https://www.curseforge.com/minecraft/mc-mods/ykkz000s-double-jump",
 		"sources": "https://github.com/ykkz000/double-jump",
-		"issues": "https://github.com/ykkz000/double-jump/issue"
+		"issues": "https://github.com/ykkz000/double-jump/issues"
 	},
 	"license": "MIT",
 	"icon": "assets/double-jump/icon.png",
