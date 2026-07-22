@@ -1,4 +1,7 @@
 {
+  "modmenu.nameTranslation.double-jump": "二段跳",
+  "modmenu.descriptionTranslation.double-jump": "这是一个可以使玩家在《我的世界》中进行二段跳的模组。",
+  "modmenu.summaryTranslation.double-jump": "这是一个可以使玩家在《我的世界》中进行二段跳的模组。",
   "text.autoconfig.double-jump.title": "二段跳选项",
   "text.autoconfig.double-jump.option.maxJumpTimes": "最大跳跃次数",
   "text.autoconfig.double-jump.option.weakenRate": "衰减比率",

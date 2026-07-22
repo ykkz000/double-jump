@@ -1,4 +1,7 @@
 {
+  "modmenu.nameTranslation.double-jump": "Double jump",
+  "modmenu.descriptionTranslation.double-jump": "This is a mod that enable you to perform a double jump in Minecraft.",
+  "modmenu.summaryTranslation.double-jump": "This is a mod that enable you to perform a double jump in Minecraft.",
   "text.autoconfig.double-jump.title": "Double Jump Options",
   "text.autoconfig.double-jump.option.maxJumpTimes": "Max Jump Times",
   "text.autoconfig.double-jump.option.weakenRate": "Weaken Rate",
