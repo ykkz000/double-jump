@@ -27,6 +27,9 @@ public abstract class LivingEntityMixin {
 
     @Inject(method = "jumpFromGround()V", at = @At("HEAD"), cancellable = true)
     protected void checkJumpFromGround(CallbackInfo ci) {
+        if (!(((LivingEntity) (Object) this) instanceof Player)) {
+            return;
+        }
         DoubleJumpConfig config = AutoConfig.getConfigHolder(DoubleJumpConfig.class).getConfig();
         if (((LivingEntity) (Object) this).onGround()) {
             jumpingTimes = 0;
@@ -39,6 +42,9 @@ public abstract class LivingEntityMixin {
 
     @Redirect(method = "getJumpPower()F", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/entity/LivingEntity;getJumpPower(F)F"))
     protected float weakJump(LivingEntity instance, float multiplier) {
+        if (!(((LivingEntity) (Object) this) instanceof Player)) {
+            return getJumpPower(multiplier);
+        }
         DoubleJumpConfig config = AutoConfig.getConfigHolder(DoubleJumpConfig.class).getConfig();
         return getJumpPower((float) (multiplier * Math.pow(config.weakenRate, jumpingTimes - 1)));
     }
